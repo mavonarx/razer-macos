@@ -14,7 +14,7 @@
 
 ## Download
 
-[Latest release](https://github.com/1kc/razer-macos/releases)
+[Latest release](https://github.com/mavonarx/razer-macos/releases)
 
 ## Installation instructions
 
@@ -129,6 +129,7 @@ Mice:
 - Razer Naga Left Handed 2020
 - Razer Naga Pro (wired and wireless)
 - Razer Naga Trinity
+- Razer Naga X
 - Razer Orochi 2011
 - Razer Orochi 2013
 - Razer Orochi Chroma
@@ -221,7 +222,7 @@ Ongoing new device support will be provided on a volunteer contribution basis, a
 
 ## Developer usage
 
-    git clone --recursive https://github.com/1kc/razer-macos.git
+    git clone --recursive https://github.com/mavonarx/razer-macos.git
 
 Ensure xcode command line tools are installed,
 
@@ -265,7 +266,7 @@ The goal is to support all devices from openrazer on macOS.
 An Electron macOS menu bar app is used for the user interface.
 The C driver is exposed as a native Node.js addon using node-addon-api, which gets invoked by Electron at runtime to send packets to devices.
 
-Adding support for new peripherals types requires porting from the openrazer project. See [wiki](https://github.com/1kc/razer-macos/wiki).
+Adding support for new peripherals types requires porting from the openrazer project. See [wiki](https://github.com/mavonarx/razer-macos/wiki).
 
 ## Credits
 
